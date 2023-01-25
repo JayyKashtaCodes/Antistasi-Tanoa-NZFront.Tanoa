@@ -101,4 +101,5 @@ if (_revealX) then
 
 [_unit,""] call BIS_fnc_setUnitInsignia;
 [_unit,MyInsignia] call BIS_fnc_setUnitInsignia;
-[_unit, selectRandom["Male01GRE", "Male02GRE", "Male03GRE"]] remoteExec ["setSpeaker", 0, true];
+[_unit, selectRandom["Male01GRE", "Male02GRE", "Male03GRE", "Male01ENGB", "Male02ENGB", "Male03ENGB", "Male04ENGB", "Male05ENGB"]] remoteExec ["setSpeaker", 0, true];
+[_unit, selectRandom["TanoanHead_A3_01", "TanoanHead_A3_02", "TanoanHead_A3_03", "TanoanHead_A3_04", "TanoanHead_A3_05", "TanoanHead_A3_06", "TanoanHead_A3_07", "TanoanHead_A3_08", "WhiteHead_01", "WhiteHead_02", "WhiteHead_03", "WhiteHead_04", "WhiteHead_05", "WhiteHead_06", "WhiteHead_07"]] remoteExec ["setFace", 0, true];

@@ -4,7 +4,7 @@ class CfgIdentities
   {
     name = "Gauge";
     nameSound = "";
-    face="AfricanHead_02";
+    face="TanoanHead_A3_01";
     glasses="None";
     speaker="Male01GRE";
     pitch=1.1;
@@ -12,8 +12,8 @@ class CfgIdentities
   class friendlyX
   {
     name = "Petros";
-    nameSound = "Petros";
-    face="AfricanHead_01";
+    nameSound = "Maru";
+    face="TanoanBossHead";
     glasses="None";
     speaker="Male01GRE";
     pitch=1.1;
@@ -22,7 +22,7 @@ class CfgIdentities
   {
     name = "Gauge";
     nameSound = "";
-    face="AfricanHead_02";
+    face="TanoanHead_A3_02";
     glasses="None";
     speaker="Male01GRE";
     pitch=1.1;
@@ -31,7 +31,7 @@ class CfgIdentities
   {
     name = "Kai";
     nameSound = "";
-    face="AfricanHead_03";
+    face="TanoanHead_A3_03";
     glasses="None";
     speaker="Male02GRE";
     pitch=1.1;
@@ -40,7 +40,7 @@ class CfgIdentities
   {
     name = "Wiremu";
     nameSound = "";
-    face="PersianHead_A3_01";
+    face="TanoanHead_A3_04";
     glasses="None";
     speaker="Male03GRE";
     pitch=1.1;
@@ -49,7 +49,7 @@ class CfgIdentities
   {
     name = "Harata";
     nameSound = "";
-    face="PersianHead_A3_02";
+    face="TanoanHead_A3_05";
     glasses="None";
     speaker="Male04GRE";
     pitch=1.1;
@@ -58,7 +58,7 @@ class CfgIdentities
   {
     name = "Iraia";
     nameSound = "";
-    face="PersianHead_A3_03";
+    face="TanoanHead_A3_06";
     glasses="None";
     speaker="Male01GRE";
     pitch=1.1;
@@ -67,7 +67,7 @@ class CfgIdentities
   {
     name = "Marcellin";
     nameSound = "";
-    face="PersianHead_A3_04";
+    face="TanoanHead_A3_07";
     glasses="None";
     speaker="Male02GRE";
     pitch=1.1;
@@ -76,7 +76,7 @@ class CfgIdentities
   {
     name = "Kiritopa";
     nameSound = "";
-    face="GreekHead_A3_08";
+    face="TanoanHead_A3_08";
     glasses="None";
     speaker="Male03GRE";
     pitch=1.1;
@@ -96,7 +96,7 @@ class CfgIdentities
     nameSound = "";
     face="WhiteHead_02";
     glasses="None";
-    speaker="Male02ENGB";
+    speaker="Male03GRE";
     pitch=1.1;
   };
   class Nicolo
@@ -105,7 +105,7 @@ class CfgIdentities
     nameSound = "";
     face="WhiteHead_03";
     glasses="None";
-    speaker="Male03ENGB";
+    speaker="Male01GRE";
     pitch=1.1;
   };
   class Panas

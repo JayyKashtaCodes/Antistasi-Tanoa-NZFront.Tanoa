@@ -97,7 +97,7 @@ publicVariable "MENU_COMMS_1";
 //////////////////
 
 ["vehicleBasic", "ncs_nzdf_rover"] call _fnc_saveToTemplate;
-["vehicleLightUnarmed", "ncs_nzdf_lov"] call _fnc_saveToTemplate;
+["vehicleLightUnarmed", "UK3CB_BAF_Husky_Passenger_HMG_Green_MTP"] call _fnc_saveToTemplate;
 ["vehicleLightArmed", "ncs_nzdf_hmt400"] call _fnc_saveToTemplate;
 ["vehicleTruck", "ncs_nzdf_hx58_covered"] call _fnc_saveToTemplate;
 ["vehicleAT", "ncs_nzdf_laviii"] call _fnc_saveToTemplate;
@@ -238,6 +238,58 @@ private _initialRebelEquipment = [
     "ncs_nzdf_patrol",
     "ncs_nzdf_mc_f4m_backpack",
     "ncs_nzdf_f4m_backpack",
+	"UK3CB_BAF_SmokeShell",
+	"rhssaf_mag_br_m84",
+	"rhs_mag_m67",
+	"HandGrenade",
+	"APERSMineDispenser_Mag",
+	"IEDUrbanBig_Remote_Mag",
+	"IEDLandBig_Remote_Mag",
+	"rhsusf_m112_mag",
+	"DemoCharge_Remote_Mag",
+	"rhssaf_tm500_mag",
+	"rhs_ec200_mag",
+	"rhs_ec75_mag",
+	"ncs_nzdf_launch_Javelin",
+	"ncs_nzdf_Javelin_M",
+	"rhs_ec400_mag",
+	"rhssaf_tm200_mag",
+	"rhssaf_tm100_mag",
+	"rhs_mine_M7A2_mag",
+	"APERSMine_Range_Mag",
+	"rhs_mine_pmn2_mag",
+	"APERSBoundingMine_Range_Mag",
+	"rhs_mag_mine_pfm1",
+	"rhsusf_mine_m14_mag",
+	"ClaymoreDirectionalMine_Remote_Mag",
+	"APERSTripMine_Wire_Mag",
+	"rhssaf_tm100_mag",
+	"rhssaf_tm200_mag",
+	"rhssaf_tm500_mag",
+	"rhssaf_mine_pma3_mag",
+	"rhssaf_mine_mrud_a_mag",
+	"rhssaf_mine_mrud_b_mag",
+	"rhssaf_mine_mrud_c_mag",
+	"rhssaf_mine_mrud_d_mag",
+	"rhs_mine_smine35_press_mag",
+	"rhs_mine_smine44_press_mag",
+	"rhs_mine_stockmine43_2m_mag",
+	"rhs_mine_stockmine43_4m_mag",
+	"rhs_mine_M3_tripwire_mag",
+	"rhs_mine_Mk2_tripwire_mag",
+	"rhs_mine_mk2_pressure_mag",
+	"rhs_mine_m3_pressure_mag",
+	"rhs_mine_glasmine43_hz_mag",
+	"rhs_mine_glasmine43_bz_mag",
+	"rhs_mine_m2a3b_press_mag",
+	"rhs_mine_m2a3b_trip_mag",
+	"rhs_mine_a200_bz_mag",
+	"rhs_mine_a200_dz35_mag",
+	"rhs_mine_m2a3b_press_mag",
+	"rhs_mine_m2a3b_trip_mag",
+	"rhs_mine_smine35_trip_mag",
+	"rhs_mine_smine44_trip_mag",
+	"SatchelCharge_Remote_Mag",
 	"rhs_acc_2dpZenit","Binocular","Laserbatteries"
 ];
 if (A3A_hasTFAR) then {_initialRebelEquipment append ["tf_microdagr","tf_anprc154"]};
@@ -251,21 +303,7 @@ if (A3A_hasTFARBeta && startWithLongRangeRadio) then {_initialRebelEquipment pus
 //       Antistasi Plus Stuff       //
 //////////////////////////////////////
 ["baseSoldiers", [ // Cases matter. Lower case here because allVariables on namespace returns lowercase
-	["militia_unarmed", "I_G_Survivor_F"],
-	["militia_rifleman", "I_G_Soldier_F"],
-	["militia_staticcrew", "I_G_Soldier_F"],
-	["militia_medic", "I_G_medic_F"],
-	["militia_sniper", "I_G_Sharpshooter_F"],
-	["militia_marksman", "I_G_Soldier_M_F"],
-	["militia_lat", "I_G_Soldier_LAT_F"],
-	["militia_machinegunner", "I_G_Soldier_AR_F"],
-	["militia_explosivesexpert", "I_G_Soldier_exp_F"],
-	["militia_grenadier", "I_G_Soldier_GL_F"],
-	["militia_squadleader", "I_G_Soldier_SL_F"],
-	["militia_engineer", "I_G_engineer_F"],
-	["militia_at", "I_Soldier_AT_F"],
-	["militia_aa", "I_Soldier_AA_F"],
-	["militia_petros", "I_G_officer_F"]
+	
 ]] call _fnc_saveToTemplate;
 
 lootCrate = "Box_Syndicate_Ammo_F";
