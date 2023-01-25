@@ -278,3 +278,6 @@ if (_reveal) then
         _unit reveal [_x,1.5];
     } forEach allUnits select {(vehicle _x isKindOf "Air") and (_x distance _unit <= distanceSPWN)}
 };
+
+[_unit, selectRandom["Male01CHI", "Male02CHI", "Male03CHI"]] remoteExec ["setSpeaker", 0, true];
+[_unit, selectRandom["AsianHead_A3_01", "AsianHead_A3_02", "AsianHead_A3_03", "AsianHead_A3_04", "AsianHead_A3_05", "AsianHead_A3_06", "AsianHead_A3_07"]] remoteExec ["setFace", 0, true];
