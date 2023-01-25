@@ -5703,18 +5703,22 @@
       <Key ID="STR_JNC_ACT_SELECT">
         <Original>Select</Original>
         <German>Auswählen</German>
+        <Russian>Выберите</Russian>
       </Key>
       <Key ID="STR_JNC_ACT_CANCEL">
         <Original>Cancel</Original>
         <German>Abbrechen</German>
+        <Russian>Отмена</Russian>
       </Key>
       <Key ID="STR_JNC_ACT_SELECT_HINT">
         <Original>Select an object</Original>
         <German>Objekt auswählen</German>
+        <Russian>Выберите объект</Russian>
       </Key>
       <Key ID="STR_JNC_ACT_SELECT_NO_OBJECT">
         <Original>Not looking at anything</Original>
         <German>Nichts ausgewählt</German>
+        <Russian>Ни на что не смотрит</Russian>
       </Key>
     </Container>
   </Package>
@@ -5723,6 +5727,7 @@
       <Key ID="STR_JNA_ACT_OPEN">
         <Original>Arsenal</Original>
         <German>Arsenal</German>
+        <Russian>Арсенал</Russian>
       </Key>
       <Key ID="STR_JNA_ACT_CONTAINER_OPEN">
         <Original>Select vehicle to open arsenal for it</Original>
@@ -5731,45 +5736,57 @@
       <Key ID="STR_JNA_ACT_UNLOAD">
         <Original>Unload from vehicle</Original>
         <German>Fahrzeug entladen</German>
+        <Russian>Выгрузка из автомобиля</Russian>
       </Key>
       <Key ID="STR_JNA_ACT_CONTAINER_SELECTERROR1">
         <Original>Not looking at an object</Original>
+        <Russian>Не смотреть на объект</Russian>
       </Key>
       <Key ID="STR_JNA_ACT_CONTAINER_SELECTERROR2">
         <Original>Object too far away</Original>
         <German>Objekt zu weit entfernt</German>
+        <Russian>Объект слишком далеко</Russian>
       </Key>
       <Key ID="STR_JNA_ACT_CONTAINER_SELECTERROR3">
         <Original>Object does not have any inventory</Original>
         <German>Objekt hat kein Inventar</German>
+        <Russian>Объект не имеет инвентаризации</Russian>
       </Key>
     </Container>
         <Container name="Flag Select">
       <Key ID="STR_FLAGMODE_SELECT">
         <Original>Select an Flag</Original>
+        <Russian>Выберите флаг</Russian>
       </Key>
       <Key ID="STR_FlagMode_NZ">
         <Original>New Zealand</Original>
+        <Russian>Новая Зеландия</Russian>
       </Key>
       <Key ID="STR_FlagMode_UT">
         <Original>United Tribes</Original>
+        <Russian>Объединенные племена</Russian>
       </Key>
       <Key ID="STR_FlagMode_RP">
         <Original>Red Peak</Original>
+        <Russian>Красный пик</Russian>
       </Key>
     </Container>
     <Container name="Faction Name">
       <Key ID="STR_NAPA_NAME">
         <Original>New Zealand Defense Force</Original>
+        <Russian>Силы обороны Новой Зеландии</Russian>
       </Key>
       <Key ID="STR_CCP_NAME">
         <Original>CCP</Original>
+        <Russian>CCP</Russian>
       </Key>
       <Key ID="STR_US_NAME">
         <Original>US</Original>
+        <Russian>US</Russian>
       </Key>
       <Key ID="STR_supportcorridor">
         <Original>Support Corridor</Original>
+        <Russian>Коридор поддержки</Russian>
       </Key>
     </Container>
     <Container name="Further Locale">
