@@ -2,7 +2,7 @@ class CfgIdentities
 {
   class protagonista
   {
-    name = "Gauge";
+    name = "Tane";
     nameSound = "";
     face="TanoanHead_A3_01";
     glasses="None";

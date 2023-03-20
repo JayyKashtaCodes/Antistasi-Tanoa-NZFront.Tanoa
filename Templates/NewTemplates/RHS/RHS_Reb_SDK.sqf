@@ -97,10 +97,10 @@ publicVariable "MENU_COMMS_1";
 //////////////////
 
 ["vehicleBasic", "ncs_nzdf_rover"] call _fnc_saveToTemplate;
-["vehicleLightUnarmed", "UK3CB_BAF_Husky_Passenger_HMG_Green_MTP"] call _fnc_saveToTemplate;
-["vehicleLightArmed", "ncs_nzdf_hmt400"] call _fnc_saveToTemplate;
+["vehicleLightUnarmed", "ncs_nzdf_laviii"] call _fnc_saveToTemplate;
+["vehicleLightArmed", "rhs_btr80a_vmf"] call _fnc_saveToTemplate;
 ["vehicleTruck", "ncs_nzdf_hx58_covered"] call _fnc_saveToTemplate;
-["vehicleAT", "ncs_nzdf_laviii"] call _fnc_saveToTemplate;
+["vehicleAT", "rhsgref_BRDM2_ATGM"] call _fnc_saveToTemplate;
 ["vehicleAA", "RHS_Ural_Zu23_MSV_01"] call _fnc_saveToTemplate; 		
 
 ["vehicleBoat", "ncs_nzdf_rhib"] call _fnc_saveToTemplate; 	
@@ -311,18 +311,18 @@ rallyPoint = "B_RadioBag_01_wdl_F";
 
 //black market stuff
 shop_UAV = ["rhs_pchela1t_vvs"];
-shop_AA = ["rhsgref_cdf_zsu234", "rhsgref_cdf_zsu234", "I_LT_01_AA_F"];
+shop_AA = ["rhsgref_cdf_zsu234", "rhsgref_cdf_zsu234", "O_PGZ09_AA"];
 shop_MRAP = ["rhsgref_BRDM2UM_ins_g", "rhsgref_BRDM2_ins_g", "rhsusf_M1117_O"];
 shop_wheel_apc = ["rhsgref_ins_g_btr60", "rhsgref_nat_btr70", "rhs_btr80a_vmf"];
 shop_track_apc = ["rhsgref_hidf_m113a3_m2", "rhsgref_cdf_bmd1k", "rhsgref_cdf_bmp2e"];
 shop_heli = ["rhs_uh1h_hidf_gunship", "rhsgref_cdf_reg_Mi17Sh"];
-shop_tank = ["rhsgref_ins_g_t72ba", "rhsgref_ins_g_t72bb", "rhsgref_ins_g_t72bc"];
+shop_tank = ["rhs_t80a", "rhsgref_ins_g_t72bb", "rhs_t90_tv"];
 shop_plane = ["RHSGREF_A29B_HIDF", "rhs_l39_cdf", "rhs_l159_CDF"];
 
 additionalShopLight = ["rhssaf_m1151_olive_pkm", "rhssaf_m1025_olive_m2", "rhs_tigr_sts_vmf"];
 additionalShopAtgmVehicles = ["rhsusf_m1045_w", "rhsusf_m1045_w", "rhsgref_BRDM2_ATGM"];
 additionalShopManpadsVehicles = [];
-additionalShopArtillery = [];
+additionalShopArtillery = ["RHS_BM21_MSV_01", "rhs_9k79"];
 
 //military building models (common for all sides)
 smallBunker = "Land_BagBunker_Small_F";
@@ -371,7 +371,8 @@ _loadoutData setVariable ["gpses", ["ItemGPS"]];
 _loadoutData setVariable ["NVGs", []]; 
 _loadoutData setVariable ["binoculars", ["Binocular"]];
 
-_loadoutData setVariable ["uniforms", ["u_ncs_nzdf_general_mc_uniform",
+_loadoutData setVariable ["uniforms", [
+	"u_ncs_nzdf_general_mc_uniform",
     "u_ncs_nzdf_uniform",
     "rhs_uniform_emr_patchless",
     "rhs_uniform_FROG01_wd",

@@ -39,7 +39,7 @@
 ["vehiclesAPCs", ["O_PLL09", "rhs_bmp3m_msv", "rhs_bmp2k_msv", "rhs_Ob_681_2"]] call _fnc_saveToTemplate;
 ["vehiclesIFVs", []] call _fnc_saveToTemplate;
 
-["vehiclesSam", ["",""]] call _fnc_saveToTemplate; 	//this line determines SAM systems, order: radar, SAM
+["vehiclesSam", ["b_afougf_p37_turret_vpvo","b_afougf_SAM_System_04_green_F"]] call _fnc_saveToTemplate; 	//this line determines SAM systems, order: radar, SAM
 
 
 ["vehiclesTransportBoats", ["O_G_Boat_Transport_01_F"]] call _fnc_saveToTemplate;
